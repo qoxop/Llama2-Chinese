@@ -1,4 +1,4 @@
-output_model=/mnt/data/zhangzheng/data/llama2/example
+output_model=/content/Llama2-Chinese-7b-train
 # 需要修改到自己的输入目录
 if [ ! -d ${output_model} ];then  
     mkdir ${output_model}
